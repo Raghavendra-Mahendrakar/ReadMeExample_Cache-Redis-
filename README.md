@@ -1,5 +1,7 @@
 ##We make use of caching concept to get quick response
 
+1st Run 'reids-server' file then only we can able to work on Redis
+
 In caching what happen is when we call an API for 1st time It will fetch date from DB after that it will store
 that fetched result in cache memory, when we make the same call then it will not go to the DB, rather it 
 will search in cache memory 1st if the result for that particular request is present then it will return that 
